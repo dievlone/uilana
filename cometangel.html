@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="product_style.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8773019046.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+    <title>Comet Angel</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section id="header">
+        <div class="header" style="background-color: #29323c">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="index.html" style="text-decoration: none;">
+                        <img style="width: 100px;" src="img/logo.png">
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="index.html" data-after="Home">Home</a></li>
+                        <li><a href="index.html#projects" data-after="Projects">Products</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="index.html#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="projects container">
+            <!-- Left Column / Headphones Image -->
+            <div class="left-column item-picture" style="margin-bottom: 800px; margin-top: 100px;">
+                <img data-image="black" style="width: 400px;" src="img/huixing/IMG_4803.JPG" alt="">
+                <img data-image="blue" style="width: 400px;" src="img/huixing/new.png" alt="">
+                <img data-image="red" style="width: 400px;" class="active" src="img/huixing/IMG_4799.JPG" alt="">
+            </div>
+
+
+            <!-- Right Column -->
+            <div class="right-column" style="margin-top: -150px;">
+
+                <!-- Product Description -->
+                <div class="product-description">
+                    <span>lingerie & underwear</span>
+                    <h1>Comet Angel Underwear Set</h1>
+                    <p>Underwear that uses high elastic technology fabrics from around the
+                        globe. The
+                        material simulates as if you’re wearing nothing at all. Lightweight, comfortable, and provides
+                        the right amount of support. High quality underwear that makes you feel confident in your body.
+                    </p>
+                </div>
+
+                <!-- Product Configuration -->
+                <div class="product-configuration">
+
+                    <!-- Product Color -->
+                    <div class="product-color">
+                        <span>Color</span>
+
+                        <div class="color-choose">
+                            <div>
+                                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                                <label for="red"><span></span></label>
+                            </div>
+                            <div>
+                                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                                <label for="blue"><span></span></label>
+                            </div>
+                            <div>
+                                <input data-image="black" type="radio" id="black" name="color" value="black">
+                                <label for="black"><span></span></label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <span style="color: #86939E; font-size: 14px; font-weight: 400;">Material</span>
+                        <div class="product-description">
+                            <p>Fabric 60% Nylon 40% Spandex</p>
+                        </div>
+                    </div>
+
+                    <!-- Cable Configuration -->
+                    <div class="cable-config">
+                        <!-- <span>Size</span> -->
+                        <a data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false"
+                            aria-controls="collapseExample"><span>Size <i
+                                    class="fas fa-chevron-circle-down"></i></span></a>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <table class="table table-striped" style="font-size: 15px;">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Size</th>
+                                            <th scope="col">Height(cm)</th>
+                                            <th scope="col">Weight(lbs)</th>
+                                            <th scope="col">Eu size</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">S</th>
+                                            <td>70A 70B 70C</td>
+                                            <td>155-160</td>
+                                            <td>less than 109</td>
+                                            <td>32</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">M</th>
+                                            <td>75A 75B 75C</td>
+                                            <td>155-165</td>
+                                            <td>105-120</td>
+                                            <td>34</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">L</th>
+                                            <td>80A 80B 80C</td>
+                                            <td>160-170</td>
+                                            <td>115-130</td>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">XL</th>
+                                            <td>85A 85B 85C</td>
+                                            <td>160-175</td>
+                                            <td>130-145</td>
+                                            <td>38</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">XXL</th>
+                                            <td>90A 90B 90C</td>
+                                            <td>160-170</td>
+                                            <td>145-165</td>
+                                            <td>40</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Pricing -->
+                <div>
+                    <span style="color: #86939E; font-size: 14px; font-weight: 400;">Price</span>
+                </div>
+                <div class="product-price">
+                    <span>$29.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="margin-top: -100px;" id="scroll" class="item-picture">
+        <a href="img/huixing/IMG_4798.JPG">
+            <img src="img/huixing/IMG_4798.JPG">
+        </a>
+        <a href="img/huixing/IMG_4801.JPG">
+            <img src="img/huixing/IMG_4801.JPG">
+        </a>
+        <a href="img/huixing/IMG_4800.JPG">
+            <img src="img/huixing/IMG_4800.JPG">
+        </a>
+        <a href="img/huixing/IMG_4804.JPG">
+            <img src="img/huixing/IMG_4804.JPG">
+        </a>
+        <a href="img/huixing/IMG_4806.JPG">
+            <img src="img/huixing/IMG_4806.JPG">
+        </a>
+        <a href="img/huixing/IMG_4762.JPG">
+            <img src="img/huixing/IMG_4762.JPG">
+        </a>
+        <a href="img/huixing/IMG_4763.JPG">
+            <img src="img/huixing/IMG_4763.JPG">
+        </a>
+        <a href="img/huixing/IMG_4765.JPG">
+            <img src="img/huixing/IMG_4765.JPG">
+        </a>
+        <a href="img/huixing/IMG_4807.JPG">
+            <img src="img/huixing/IMG_4807.JPG">
+        </a>
+        <a href="img/huixing/IMG_4808.JPG">
+            <img src="img/huixing/IMG_4808.JPG">
+        </a>
+        <a href="img/huixing/IMG_4764.JPG">
+            <img src="img/huixing/IMG_4764.JPG">
+        </a>
+
+    </div>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <img style="width: 100px;" src="img/logo.png">
+            </div>
+            <!-- <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+                </div>
+            </div> -->
+            <!-- <p>Copyright © 2020 Arfan. All rights reserved</p> -->
+        </div>
+    </section>
+    <!-- End Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+        const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+        const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
+        const header = document.querySelector('.header.container');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobile_menu.classList.toggle('active');
+        });
+        menu_item.forEach((item) => {
+            item.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                mobile_menu.classList.toggle('active');
+            });
+        });
+        baguetteBox.run('.item-picture', { animation: 'slideIn' });
+    </script>
+</body>
+
+</html>
